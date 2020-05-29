@@ -21,6 +21,23 @@
     height: 400px;
     margin: 10px;
     font-size: 10pt;
+    position: relative;
+    z-index: 1;
+}
+
+.flex_events .background_logo {
+    background-image: url("brooks_logo_rot.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 300px;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .my-row_3 {
@@ -80,16 +97,8 @@
     font-size: 8pt;
 }
 
-@media (min-width: 500px) {
-    .icon {
-        width: 2%;
-    }
-}
-
-@media (max-width: 499px) {
-    .icon {
-        width: 5%;
-    }
+.icon {
+    width: 22px;
 }
 
 .index_logo {
@@ -102,14 +111,14 @@
     padding-top: 30px;
     height: 0;
     overflow: hidden;
-    }
+}
     
-    .responsive-iframe-container iframe,
-    .vresponsive-iframe-container object,
-    .vresponsive-iframe-container embed {
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    }
+}
