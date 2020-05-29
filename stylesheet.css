@@ -16,6 +16,13 @@
     height: 400px;
 }
 
+.flex_events {
+    display: flex;
+    height: 400px;
+    margin: 10px;
+    font-size: 10pt;
+}
+
 .my-row_3 {
     height: 5px;
     /*border: 1px solid green;*/
@@ -35,7 +42,40 @@
     font-variant: small-caps;
   }
   
-  .btn-primary:hover {
+.btn-primary:hover {
     background-color: black;
     border-color: black;
-  }
+}
+
+.my-row_5 {
+    background: lightgrey;
+    height: 5px;
+}
+
+.th_date {
+    text-align: center;
+    width: 100px;
+    border: 1px solid grey;
+    font-size: 9pt;
+}
+
+.th_event {
+    text-align: left;
+    border: 1px solid grey;
+    padding: 5px;
+    width: 1000px;
+    font-size: 9pt;
+}
+
+.td_date {
+    text-align: center;
+    border: 1px dotted grey;
+    font-size: 8pt;
+}
+
+.td_event {
+    text-align: left;
+    border: 1px dotted grey;
+    padding: 5px;
+    font-size: 8pt;
+}
