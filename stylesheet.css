@@ -84,18 +84,14 @@
     .icon {
         width: 2%;
     }
-
-    .index_logo {
-        width: 35%;
-    }
 }
 
 @media (max-width: 499px) {
     .icon {
         width: 5%;
     }
+}
 
-    .index_logo {
-        width: 5%;
-    }
+.index_logo {
+    width: 35%;
 }
